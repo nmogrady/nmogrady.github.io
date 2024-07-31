@@ -1,0 +1,161 @@
+/*css for formatting and appeal*/
+header {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px; 
+    text-align: center; 
+    margin-bottom: 10px;
+    width: 100%
+}
+
+@font-face { /* Coustard font */
+    font-family: 'Coustard';
+    src: url('Coustard/Coustard-Black.ttf') format('truetype');
+    }
+
+*body {
+    background-color: #171717;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+*{
+
+    box-sizing: border-box;
+    font-family: 'Coustard', serif;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+form {
+    width: 500px;
+    border: 2px solid #ccc;
+    padding: 30px;
+    background: #fff;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+input {
+    display: block;
+    border: 2px solid #ccc;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+label {
+    color: #888;
+    font-size: 18px;
+    padding: 10px;  
+}
+
+button {
+    float: right;
+    background: #555;
+    padding: 10px 15px;
+    color: #eee4e4;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+}
+
+button:hover{
+    background: #7e7d7d;
+}
+
+.error {
+    background: #F2DEDE;
+    color: #A94442;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.registered {
+    background: #0e7927;
+    color: #54d06b;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+h1 {
+    text-align: center;
+    color: #171717;
+}
+
+.ca {
+    font-size: 14px;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #444;
+}
+
+
+.ca {
+    text-decoration: underline;
+}
+
+.home-buttons {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    height: 100vh; 
+}
+
+.home-button {
+    font-size: 30px; 
+    padding: 24px 48px; 
+    background-color: #535960; 
+    color: #fff; 
+    border: none;
+    border-radius: 8px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px; 
+}
+
+.home-button:hover {
+    background-color: #b4b7bb; 
+}
+
+.link {
+    display: flex; 
+    justify-content: center; 
+}
+
+.form-set {
+    width: 900px;
+    border: 2px solid #ccc;
+    padding: 30px;
+    background: #fff;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+   
+    height: 100vh; 
+}
+
+.content {
+    text-align: center; 
+}
+    
+.dependent-form {
+    width: 500px;
+    margin: 0 auto;
+}
